@@ -1,4 +1,4 @@
-resource "aws_instance" "myVM01" {
+resource "aws_instance" "myVM1" {
   ami           = "ami-00b2c40b15619f518"
   instance_type = "t2.micro"
   tags = {
