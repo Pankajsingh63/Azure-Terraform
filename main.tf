@@ -2,7 +2,7 @@ resource "aws_instance" "myVM1" {
   ami           = "ami-00b2c40b15619f518"
   instance_type = "t2.micro"
   tags = {
-    Name = "Example-01"
+    Name = "Demo-Server"
     PatchGroup= "Group1"
     Environment = "Dev"
     CreatedOn = "01-May-2023"
