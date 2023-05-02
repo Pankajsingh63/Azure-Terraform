@@ -7,6 +7,7 @@ resource "aws_instance" "myVM1" {
     Environment = "Dev"
     CreatedOn = "01-May-2023"
     CreatedBy = "Kunal K"
+    OS = "Windows"
   }
 }
 
